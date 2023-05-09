@@ -1,0 +1,84 @@
+<!--------w-----------
+
+	Do not alter this comment block. 
+	Only fill out the information below.
+	
+    Final Project
+    Name: Navjot Kaur
+    Date: April 27, 2023
+    Description: In this file, Insight of a company
+	
+-------------------->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Final Project of Web Development</title>
+		<link rel="stylesheet" type="text/css" href="color.css">
+		<script src="contact.js"></script>
+	</head>
+
+	<!--This shows the the heading to create Google Account-->
+	<!--This shows the the heading to create Google Account-->
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="product.html">Products</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+            <h1>Farmlandia</h1>
+			<h2>Send feedback or ask questions</h2>
+		</header>
+        <main>
+
+		<!-- Create your inputs and labels inside the form tag -->
+		<!--In this image is added in the fieldset and caption-->
+		<form id="users" method="post" action="images/thanks.jpg" position="fixed">
+            <fieldset>
+			<div style="float: center; font-size: 13px;">
+            </div>
+
+            <ol id="button">
+				<!--In this name will be entered-->
+                <li>
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name" required>
+				</li>
+
+				<!--In this phone number will be entered-->
+                <li>
+					<label for="phone">Phone Number:</label>
+					<input type="tel" name="phone" id="phone" pattern="[0-9]{10}" required>
+                </li>
+					
+				<!--In this email will be entered-->
+                <li>
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" required>
+                </li>
+					
+				<!--In this comments will be entered-->
+                <li>
+					<label for="Comments">Comments:</label>
+					<textarea type="Comments" name="comments" id="comments" placeholder="..." required></textarea>
+					<div style="font-size: 13px; color: #ac4164;" >You can use letters, numbers & periods</div>
+                </li>
+				<!--In this either sign-in or continue for creating account-->
+            </ol>
+					<button type="reset" name="reset" id="reset" style="background-color: rgb(170, 231, 231); border-color: rgb(170, 231, 231);">Reset</button>
+					<button type="submit" name="submit" id="submit" style="background-color: rgb(31, 163, 224); border-color: rgb(31, 163, 224);">Submit</button>
+            
+		</fieldset></form>
+        </main>
+        <footer> 
+			<ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+			</ul>
+		</footer> 
+	</body>
+</html>

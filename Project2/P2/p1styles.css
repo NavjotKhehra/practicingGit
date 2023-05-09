@@ -1,0 +1,354 @@
+/********w************
+    
+    Project 1 Stylesheet
+    Name: Navjot Kaur
+    Date: February 28, 2023
+    Description: In this file, positioning, color, font, padding, width and verythign is 
+	set to make webpage look great as per requirements.
+
+*********************/
+
+html,
+body,
+section,
+p,
+header,
+nav,
+footer,
+div,
+article,
+aside,
+ol,
+ul,
+li,
+h1,
+h6 {
+	margin: 7px;
+	padding: 0px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	border: #599999;
+}
+
+/*body of the page*/
+body {
+	background-color: #e6e6e6;
+	font-family: Verdana;
+	margin: 20px;
+}
+
+/*whole box of the page*/
+div#container {
+	width: 810px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 3px auto;
+	padding: 2px;
+	box-shadow: 1px 1px 2px #a2a2a2, -1px -1px 2px #a2a2a2;
+	border: #a2a2a2;
+}
+
+#logo {
+	position: relative;
+	top: 13px;
+	left: 12px;
+}
+
+/*first navigation*/
+ul#top_nav li {
+	position: relative;
+	font-size: 10px;
+	top: -22px;
+	left: 210px;
+	display: inline;
+	word-spacing: nowrap;
+} 
+
+ul#top_nav a {
+	color: rgb(38, 121, 168);
+	border-right: 1px solid rgb(38, 121, 168);
+	padding: 5px;
+	margin: -11px;
+	text-decoration: none;
+}
+
+ul#top_nav li:last-of-type {
+	border-right: 1px solid #ffffff;
+}
+
+/*search box*/
+fieldset {
+	float: right;
+	border: none;
+	margin-right: 6px;
+	position: relative;
+	top: -22px;
+}
+
+/*input box size*/
+input[type='Search'] {
+	width: 100px;
+	height: 17px;
+}
+
+/*big image of the page*/
+.center {
+	position: relative;	
+	top: -31.5px;
+	left: 5.5px;
+}
+
+/*text at top left corner*/
+.text {
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	font-size: 40px;
+	color: #ffffff;
+	font-family: Tahoma;
+	font-weight: 100;
+	letter-spacing: 7px;
+}
+
+/*text at right bottom side*/
+.text2 {
+	position: absolute;
+	top: 145px;
+	right: 30px;
+	font-style: italic;
+	color: #ffffff;
+	font-size: 20px;
+	font-size: 15px;
+}
+
+/*color of link with li*/
+ul a {
+	color: rgb(38, 121, 168);
+	list-style: none;
+	font-family: Verdana;
+}
+
+ul a:hover {
+	color: rgb(224, 24, 24);
+	list-style: none;
+}
+
+/*color of the links without li*/
+a {
+	color: rgb(38, 121, 168);
+	text-decoration: none;
+	font-family: Verdana;
+
+}
+
+a:focus {
+	color: rgb(224, 24, 24);
+	text-decoration: none;
+}
+
+/*second nevigation*/
+nav#main_nav ul {
+	background: linear-gradient(rgb(136, 197, 231),rgb(18, 101, 150));
+	margin: 25px auto 0px;
+	width: 790.5px;
+	line-height: 28px;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+	top: -60.5px;
+	border-radius: 0%;
+}
+
+/*second navigation text editting*/
+nav#main_nav ul li a {
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+}
+
+/*second navigation is line*/
+nav#main_nav ul li {
+	display: inline;
+	padding: 0px 7px;
+	margin: 3px;
+}
+
+/*left side navigation and nagalogo text*/
+aside {
+	text-align: left;
+	width: 185px;
+	font-size: 12px;
+}
+
+/* horizontal navigation bar*/
+aside ul#about li {
+	display: block;
+	position: relative;
+	list-style: none;
+	left: -7px;
+	line-height: 28px;
+	border-radius: 0%;
+	background: linear-gradient(#e2e1e1,#a2a2a2);
+	top: -68px;
+	margin: 0px;
+	width: 185px;
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+
+/* horizontal navigation color*/
+aside ul#about li a {
+	color: black;
+	text-decoration: none;
+}
+
+/* horizontal navigation hover effect*/
+aside ul#about a:hover {
+	color: rgb(223, 51, 51);
+}
+
+/*positing of the aside text/image is done*/
+.nasalogo {
+	position: relative;
+	border-top: 1px solid #a2a2a2;
+	width: 185px;
+	left: -7px;
+	margin-bottom: -390px;
+}
+
+p#pic img {
+	float: right;
+}
+
+/*text is set is set of nasa*/
+p.nasalogo p {
+	line-height: 17px;
+	width: 1px;
+	color: #888787;
+	font-size: 12px;
+	left: -1px;
+	bottom: -50px;
+}
+
+section.content span {
+	position: relative;
+	top: -13px;
+	left: 33px;
+}
+
+section li {
+	text-decoration: none;
+	list-style: none;
+}
+
+/*Home>>About Us are set*/
+.content li {
+	position: relative;
+	top: 180px;
+	left: 5px;
+	font-size: 12px;
+	margin: 0px;
+	font-size: 11px;
+}
+
+/*About Us is set*/
+header {
+	position: relative;
+	margin: -5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h1#first {
+	top: 185px;
+	left: -3px;
+	position: relative;
+}
+
+/*text after About Us line*/
+h2#more {
+	position: relative;
+	font-size: 15px;
+	font-weight: bold;
+	left: -3px;
+	top: 180px;
+}
+
+/*paragraph*/
+.content {
+	position: relative;
+	top: -348px;
+	right: -200px;
+}
+
+/*paragraph is set*/
+article p {
+	position: relative;
+	width: 100%;
+	padding-right: 185px;
+	left: -20px;
+	top: 185px;
+	font-size: 13px;
+	line-height: 23px;
+}
+
+/*para 2 is set*/
+p#sec  {
+	width: 530px;
+	position: relative;
+	line-height: 23px;
+}
+
+ul.list li {
+	line-height: 28px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/*margin of paragraph*/
+p {
+	margin: 10px;
+}
+
+/*image is set of nasa*/
+aside img#global {
+	float: right;
+	margin-top: -100px;
+}
+
+article img#car {
+	position: relative;
+	float: right;
+	right: 187px;
+	bottom: 30px;
+}
+
+#car {
+	border: #a2a2a2 1px solid;
+	border-color: #a2a2a2;
+	border-radius: none;
+	border-right: 1px solid ;
+	padding: 4px;
+	padding-bottom: 60px;
+}
+
+div.rover p {
+	width: 410px;
+	position: relative;
+	left: 320px;
+	top: 175px;
+	font-size: 10px;
+	line-height: 13px;
+}
+
+footer {
+	text-align: center;
+	left: 130px;
+	font-size: 11px;
+	line-height: 8px;
+	position: relative;
+}
+
+footer li {
+	display: inline;
+}

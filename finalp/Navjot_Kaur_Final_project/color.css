@@ -1,0 +1,138 @@
+/********w************
+
+    Final Project
+    Name: Navjot Kaur
+    Date: Apirl 27, 2023
+    Description: In this file,
+
+*********************/
+
+body {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    display: inline;
+
+}
+
+nav li:hover {
+    background-color: #a541be;
+    color: #333;
+}
+
+nav ul {
+    font-size: 10px;
+}
+
+nav ul li:first-child {
+    font-size: 30px;
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    border-left: none;
+}
+
+nav ul li a {
+    padding: 6px 8px;
+
+}
+
+nav ul li {
+    font-size: 30px;
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    border-left: 1px solid #000000;
+}
+
+
+h2 {
+    font-size: 35px;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 35px;
+    font-style: italic; 
+}
+
+ul li:hover {
+    background-color: #a541be;
+    color: #333;
+}
+
+li a {
+    font-size: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+p {
+    font-style: italic;
+    font-size: 30px;
+    text-align: justify;
+}
+
+#robot{
+    padding-top: 20px;
+}
+
+#design {
+    padding-top: 20px;
+}
+
+img #car {
+    width: 100%;
+    height: auto;
+}
+
+#dog {
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+    float: right;
+}
+
+#bee {
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+    float: right;
+}
+
+#button {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer ul {
+    font-size: 10px;
+}
+
+footer ul li:first-child {
+    font-size: 10px;
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    border-left: none;
+}
+
+footer ul li a {
+    padding: 6px 8px;
+
+}
+
+footer ul li {
+    font-size: 30px;
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    border-left: 1px solid #000000;
+}
+

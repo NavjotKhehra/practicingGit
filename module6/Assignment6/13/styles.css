@@ -1,0 +1,23 @@
+/*******f************
+
+    Competency 13
+    Name: Navjot Kaur
+    Date: March 26, 2023
+    Description: In this file, .addEventListener is used to load(), button is added, 
+		setting is done to display input
+
+********************/
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+form{
+	width: 50%;
+}
+
+input[type="text"]{
+	display: none;
+}
